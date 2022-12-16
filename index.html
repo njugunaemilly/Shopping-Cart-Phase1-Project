@@ -1,44 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopping Cart Project</title>
-    <link rel="stylesheet" href="src/index.css">
-</head>
-<body>
-    
-            <a href="/" title="Homepage" id="logo" >
-            <img src="asset/logo.jpg" style="width: 10em; height: 8em;" alt="business logo">
-            </a>
-    <nav>    
-        <div id="dropdown">
-            <button id="drop" class="dropdownbtn">Shop By Category</button>
-            <div id="dropitems" class="dropdetails">
-             <a href="#" id="lipstick">LIPSTICK</a>
-            <a href="#" id="blush">BLUSH</a>
-            <a href="#" id="bronzer">BRONZER</a>
-            <a href="#" id="eyeliner">EYELINER</a>
-            <a href="#" id="eyeshadow">EYESHADOW</a>
-            <a href="#" id="foundation">FOUNDATION</a>
-            </div>
-        </div>
-        <div class="links">
-            
-            <form id="searchbar">
-                <input type="text" id="searchId" class="search" placeholder="Search Items"/> 
-                
-            <button style="font-size: 12px">
-                <i class="fa fa-shopping-cart">Cart</i>
-            </button>
-            </form>
-            
-        </div>
-    </nav>
-    <div id="container">
-    </div>
+<!doctype html>
 
-    <script src="index.js"></script>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>PHASE 1 PROJECT</title>
+  <meta name="description" content="JS-PRACTICE_PROJECT">
+  <meta name="author" content="SitePoint">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/ce3301cb54.js" crossorigin="anonymous"></script>  
+  <link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+        <h2>BOW MART</h2>
+     </div>
+    <div class="dropDown">
+      <button id="drp" class="dropbtn">SHOP BY CATEGORY</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#" id="lipstick">LIPSTICK</a>
+        <a href="#" id="blush">BLUSH</a>
+        <a href="#" id="bronzer">BRONZER</a>
+        <a href="#" id="eyeliner">EYELINER</a>
+        <a href="#" id="eyeshadow">EYESHADOW</a>
+        <a href="#" id="foundation">FOUNDATION</a>
+      </div>
+    </div>
+    <div class="links">
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <form id="searchbar">
+        <input type="text" id="searchId" class="search" placeholder="Search brands" />
+      </form>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <button id="cart"><i class="fa fa-cart-shopping"></i></button>
+    </div>
+  </nav>
+  <div id="main-container">
+  </div>
+  <script src="./src/index.js"></script>
 </body>
+
 </html>
